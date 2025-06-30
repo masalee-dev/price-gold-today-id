@@ -17,7 +17,7 @@ setuptools.setup(
     },
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: GNU General Public License v3 (GPLv3)e",
+        "License = GNU General Public License v3 (GPLv3)e",
         "Operating System :: OS Independent",
         "Development Status :: 5 - Production/Stable"
     ],
@@ -27,4 +27,3 @@ setuptools.setup(
     python_requires=">=3.13",
 
 )
-

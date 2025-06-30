@@ -82,3 +82,9 @@ def view_data(result):
     print(f"Weight : {result['weight buy']}")
     print(f"Sell price {result['sell price']}")
     print(f"Weight : {result['weight sell']}")
+
+if __name__ == '__main__':
+    print('Main Application')
+    print('\n')
+    result = data_extraction()
+    view_data(result)
