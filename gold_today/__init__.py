@@ -46,7 +46,7 @@ def data_extraction():
 
 
         results = soup.find('div',{'class':'col-md-6 text-center border-left'})
-        results = results.findChildren()
+        results = results.find_all()
         i = 0
         sell_price = None
         weight2 = None
