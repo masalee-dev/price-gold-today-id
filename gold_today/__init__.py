@@ -36,7 +36,7 @@ def data_extraction():
         prices_daily_at = results[2]
         update_gold_today = results[1]
 
-        results = soup.find('h3', {'class':'font-weight-bold'}) # find buy price
+        results = soup.find(    'h3', {'class':'font-weight-bold'}) # find buy price
         results = results.text
         buy_price = results
 
