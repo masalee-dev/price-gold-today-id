@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="pricegoldtoday-indonesia",
-    versions="0.0.2",
+    versions="0.0.4",
     author="Haeder Ali",
     author_email="haederalee@gmail.com",
     description="This package will get update price gold in Indonesia, source from lakuemas.com",

@@ -9,13 +9,12 @@ in web or mobile applications.
 # How you can use! write in your pyhton 
 
 ```
-import gold_today
+from gold_today import PriceGold
 
 if __name__ == '__main__':
-    print('Main Application')
-    print('\n')
-    result = gold_today.data_extraction()
-    gold_today.view_data(result)
+    update_gold_Indonesia = PriceGold('https://www.lakuemas.com')
+    print('Class description PriceGold',update_gold_Indonesia.description)
+    update_gold_Indonesia.run()
 ```
 
 # FOLLOW US!
